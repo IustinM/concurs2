@@ -1,0 +1,76 @@
+@media screen and (max-width:960px){
+    html,body{
+        overflow-x: hidden;
+    }
+    nav{
+        position: fixed;
+        
+    }
+    
+    .nav-links{
+        
+        position: fixed;
+        top: 6rem;
+        flex-direction: column;
+        background-color: #e2cdc3;
+        right: -500px;
+        height: 600px;
+        transition: all 0.3s ease;
+        justify-content: center;
+    }
+    .nav-links li{
+        padding: 2rem;
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        margin: 2rem;
+    }
+    .burger div{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: #ac3b61;
+        transition: all 0.3s ease;
+    }
+    header{
+        height: 100%;
+    }
+    .title{
+        font-size: 4rem;
+    }.paragraf-sanatate{
+        font-size: 17px ;
+        
+    }
+    .link-catre-container{
+        text-decoration: none;
+        color: #ac3b61;
+        padding: 1rem;
+        font-size: 15px;
+        margin: 2rem;
+        border: 2px solid #ac3b61;
+    }
+    .nav-active{
+        right: 0px;
+    }
+
+@keyframes navSlideIn {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+}
