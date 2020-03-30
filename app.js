@@ -22,3 +22,11 @@ const navSlide = () =>{
 }
 // numim functia pentru a se efectua
 navSlide();
+// efect imagine container1
+new hoverEffect ({
+    parent: document.querySelector('.distorsiune'),
+    intensity:0.2,
+    image1: ' ./images/sanatate1.jpg',
+    image2: ' ./images/sanatate2.png',
+    displacementImage: ' ./images/diss.png'
+});

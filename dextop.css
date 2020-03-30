@@ -4,10 +4,12 @@ html,body{
 }
 nav{
    justify-content: space-between;
+   
    width: 100%;
    display: flex;
    height: 100px;
-   background-color: #e2cdc3;
+   background-color: #85dcb8;
+   z-index: 5;
     
 }
 .imagine-icon img{
@@ -15,9 +17,9 @@ nav{
     padding: 1rem;
 }
 .nav-links{
-    
-    display: flex;
     align-items: center;
+    display: flex;
+   height: 100px;
 }
 .nav-links li{
     list-style: none;
@@ -26,7 +28,7 @@ nav{
 .nav-links a{
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
-    color: #ac3b61;
+    color: white;
     font-size: 23px;
     letter-spacing: 3px;
 }
@@ -37,8 +39,8 @@ nav{
     content: '';
     display: block;
     width: 0;
-    height: 2px;
-    background: #ac3b61;
+    height: 3px;
+    background: white;
     transition: width .3s;
 }
 
@@ -55,22 +57,50 @@ header{
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    background: #e2cdc3;
+    background: #85dcb8;
 }
 .title{
     font-size: 6rem;
-    color: #ac3b61;
+    color: white;
     padding: 1rem;
 }
 .paragraf-sanatate{
     font-size: 20px ;
-    color: #ac3b61;
+    color: white;
 }
 .link-catre-container{
     text-decoration: none;
-    color: #ac3b61;
+    color: white;
     padding: 1rem;
     font-size: 18px;
     margin: 2rem;
-    border: 2px solid #ac3b61;
+    border: 2px solid white;
+}
+.space-distorsiune{
+     width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+ .distorsiune{
+     padding: 2rem;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    
+} 
+#container1{
+    display: flex;
+    background-color:#116466;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 3rem;
+}
+#container1 h3{
+    font-size: 3.5rem;
+    padding: 2rem 3rem;
+}
+#container1 p{
+    padding:  0.5rem 2rem;
+    font-size: 18px;
 }
