@@ -142,6 +142,30 @@
  .data-list li{
      font-size: 14px;
  }
+ #container2 #home{
+
+    border: none;
+    margin:  0 ;
+    
+    
+} 
+ #container2 #despre{
+
+    border: none;
+    margin:  0 ;
+    
+    
+} 
+ #container2 #mod{
+
+    border: none;
+    margin:  0 ;
+    
+    
+} 
+#container2 .data-list{
+    margin: 0;
+}
 }
 
 @media screen and (max-width:1300px){
