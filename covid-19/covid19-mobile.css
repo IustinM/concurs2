@@ -1,0 +1,172 @@
+@media screen and (max-width:960px){
+    html,body{
+        overflow-x: hidden;
+    }
+    nav{
+        position: fixed;
+        height: 50px;
+        
+    }
+    
+    .nav-links{
+        
+        position: fixed;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #000000;
+        right: -500px;
+        height: 600px;
+        transition: all 0.3s ease;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-links li{
+        padding: rem 0;
+        opacity: 0;
+    }
+    .imagine-icon img{
+        width: 50px;
+        padding: 0.5rem;
+    }
+    
+    .cool-link:hover::after{
+    width: 0%;
+    transition: width .3s;
+    }
+    .burger{
+        display: block;
+        margin: 0.8rem;
+    }
+    .burger div{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+    header{
+        height: 100%;
+    }
+    .title{
+        font-size: 4rem;
+    }.paragraf-sanatate{
+        font-size: 17px ;
+        
+    }
+    .link-catre-container{
+        
+        padding: 1rem;
+        font-size: 15px;
+        
+    }
+    .nav-active{
+        right: 0px;
+    }
+
+@keyframes navSlideIn {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+#container1-covid19{
+    min-height: 100vh;
+}
+.container1-images img{
+    display: none;
+}
+.title-covid19{
+    font-size: 4rem;
+}
+#container1-covid19 p{
+    font-size: 2rem;
+}
+.tab1-text{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tab1-text h1{
+    font-size: 2rem;
+}
+.tab1-text p{
+    font-size: 1.2rem;
+}
+ .icon-tab{
+     display: none;
+ }
+.tab2-text{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tab2-text h1{
+    font-size: 2rem;
+}
+.tab2-text p{
+    font-size: 1.2rem;
+}
+ .icon-tab2{
+     display: none;
+ }
+.tab3-text{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.tab3-text h1{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.tab3-text li{
+    font-size: 0.8rem;
+    padding: 0 ;
+}
+ .icon-tab3{
+     display: none;
+ }
+ .data-list li{
+     font-size: 14px;
+ }
+}
+
+@media screen and (max-width:1300px){
+    .tab1-text h1{
+        font-size: 4rem;
+    }
+    .tab1-text p{
+        font-size: 1.3rem;
+    }
+    .tab2-text h1{
+        font-size: 2rem;
+    }
+    .tab2-text p{
+        font-size: 1.1rem;
+    }
+    
+    .tab3-text h1{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .tab3-text li{
+        font-size: 14px;
+        padding: 0 ;
+    }
+     .icon-tab3 i{
+         font-size: 5rem;
+     }
+}

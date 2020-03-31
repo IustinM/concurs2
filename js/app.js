@@ -30,3 +30,4 @@ new hoverEffect ({
     image2: ' ./images/sanatate2.png',
     displacementImage: ' ./images/diss.png'
 });
+//   efectul paralax

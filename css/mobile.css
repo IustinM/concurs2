@@ -1,0 +1,166 @@
+@media screen and (max-width:960px){
+    html,body{
+        overflow-x: hidden;
+    }
+    nav{
+        position: fixed;
+        height: 50px;
+        
+    }
+    
+    .nav-links{
+        
+        position: fixed;
+        top: 3rem;
+        flex-direction: column;
+        background-color: #85dcb8;
+        right: -500px;
+        height: 600px;
+        transition: all 0.3s ease;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-links li{
+        padding: rem 0;
+        opacity: 0;
+    }
+    .imagine-icon img{
+        width: 50px;
+        padding: 0.5rem;
+    }
+    
+    .cool-link:hover::after{
+    width: 0%;
+    transition: width .3s;
+    }
+    .burger{
+        display: block;
+        margin: 0.8rem;
+    }
+    .burger div{
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+    header{
+        height: 100%;
+    }
+    .title{
+        font-size: 4rem;
+    }.paragraf-sanatate{
+        font-size: 17px ;
+        
+    }
+    .link-catre-container{
+        
+        padding: 1rem;
+        font-size: 15px;
+        
+    }
+    .nav-active{
+        right: 0px;
+    }
+
+@keyframes navSlideIn {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+#container1{
+    flex-direction: column;
+}
+.distorsiune{
+    padding: 2rem 0;
+    width: 400px;
+    height: 200px;
+}
+}
+@media screen and (min-width: 600px){
+    #container1 h1{
+        font-size: 4rem;
+        line-height: 75px;
+    }
+        #container2{
+            display:flex ;
+        }
+        #container2 p{
+            font-size: 20px;
+            
+        }
+       
+        .text-container2{
+          
+           
+            margin-bottom: 2rem;
+        }
+    
+        
+    }
+    @media screen and (min-width:1300px){
+    
+    #container2{
+        display:flex ;
+    }
+    #container2 p{
+        font-size: 23px;
+    }
+    #container2 img{
+        top: 20%;
+        width: 600px;
+        right: 10%;
+    
+    }
+    .text-container2{
+        width: 500px;
+        margin-left: 4rem;
+    }
+    #container3 h2{
+        font-size: 40px;
+        padding: 3rem;
+    
+    }
+    #container3 p{
+        font-size: 25px;
+    }
+    }
+    
+    .punct{
+        background-color: #8860d0;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        z-index: 2;
+        right: 2rem;
+        bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 2px solid white;
+        transition: 0.5s;
+    }
+    .punct  {
+        font-size: 1.7rem;
+        color: white;
+        text-decoration: none;
+    }
+    .punct:hover{
+        background: none;
+    }
+    

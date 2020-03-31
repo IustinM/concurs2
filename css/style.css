@@ -1,4 +1,141 @@
 
+html,body{
+    height: 100%;
+    font-family: sans-serif;
+}
+nav{
+   justify-content: space-between;
+   
+   width: 100%;
+   display: flex;
+   height: 100px;
+   background-color: #85dcb8;
+   z-index: 5;
+    
+}
+.imagine-icon img{
+    width: 120px;
+    padding: 1rem;
+}
+.nav-links{
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.nav-links li{
+    list-style: none;
+    padding: 0 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+.burger{
+    display: none;
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+header{
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background: #85dcb8;
+    position: relative;
+}
+.title{
+    font-size: 6rem;
+    color: white;
+    padding: 1rem;
+}
+.paragraf-sanatate{
+    font-size: 20px ;
+    color: white;
+}
+.sos-covid-19{
+    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.link-covid-19{
+
+    padding: 1rem;
+    background: red;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: background 0.3s ease;
+}
+.link-covid-19:hover{
+    background: none;
+}
+.link-catre-container{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 18px;
+    margin: 2rem;
+    border: 2px solid white;
+}
+.space-distorsiune{
+     width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+ .distorsiune{
+     padding: 2rem;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    
+} 
+#container1{
+    display: flex;
+    background-color:#116466;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 3rem;
+}
+#container1 h3{
+    font-size: 3.5rem;
+    padding: 2rem 3rem;
+}
+#container1 p{
+    padding:  0.5rem 2rem;
+    font-size: 18px;
+}
+
 #container3{
     width: 100%;
     
@@ -173,76 +310,4 @@
 .contact a:hover{
     color: rgb(128, 128, 128);
     transform: scale(0.2); 
-}
-@media screen and (min-width: 600px){
-#container1 h1{
-    font-size: 4rem;
-    line-height: 75px;
-}
-    #container2{
-        display:flex ;
-    }
-    #container2 p{
-        font-size: 20px;
-        
-    }
-   
-    .text-container2{
-      
-       
-        margin-bottom: 2rem;
-    }
-
-    
-}
-@media screen and (min-width:1300px){
-
-#container2{
-    display:flex ;
-}
-#container2 p{
-    font-size: 23px;
-}
-#container2 img{
-    top: 20%;
-    width: 600px;
-    right: 10%;
-
-}
-.text-container2{
-    width: 500px;
-    margin-left: 4rem;
-}
-#container3 h2{
-    font-size: 40px;
-    padding: 3rem;
-
-}
-#container3 p{
-    font-size: 25px;
-}
-}
-
-.punct{
-    background-color: #8860d0;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2;
-    right: 2rem;
-    bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: 2px solid white;
-    transition: 0.5s;
-}
-.punct  {
-    font-size: 1.7rem;
-    color: white;
-    text-decoration: none;
-}
-.punct:hover{
-    background: none;
 }
