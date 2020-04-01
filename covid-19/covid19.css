@@ -106,7 +106,7 @@
  #container1-covid19{
     width: 100%;
     min-height: 90vh;
-    background-image: url(../images/covid-19-background.png);
+    background-image: url(../images/plamani.jpg);
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -187,6 +187,26 @@
     background-color: #000000;
     
 }
+.covid1{
+    width: 200px;
+    right: 10%;
+    top: 10%;
+}
+.covid2{
+    width: 130px;
+    left: 10%;
+    top: 50%;
+}
+.covid3{
+    width: 230px;
+    right: 25%;
+    bottom: 1%;
+}
+.covid4{
+    width: 70px;
+    left: 25%;
+    top: 1%;
+}
 [data-tab-content]{
     display: none;
     
@@ -195,18 +215,16 @@
     display: flex;
     
 }
-/* .active.tab{
-    background-color: rgb(189, 27, 27);
+.tab.active{
+    background-color: #2b2b2b98;
 }
-.tab:hover{
-    background-color: #ccc;
-} */
+
 
 
      #container2 .data-list{
  display: flex;
  justify-content: space-around;
- background-color: #4e4e4e3f;
+  /* background-color: #4e4e4e3f;  */
  margin-top: 2rem;
  margin: 0 3rem;
 }
@@ -297,10 +315,12 @@
 .tab2-text h1{
     font-size: 3rem;
     padding: 2rem;
+    color: #000000;
 }
 .tab2-text p{
     font-size: 1.5rem;
     padding: 0 2rem;
+    color: #000000;
 }
 .icon-tab2{
     width: 50%;
@@ -308,7 +328,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: yellowgreen;
+    
     font-size: 10rem;
 }
 #container2 #mod i{
@@ -342,16 +362,15 @@
  .tab3-text li{
      list-style: none;
      font-size: 1.1rem;
+     color: #000000;
  }
 
 .tab3-text h1{
     font-size: 2.5rem;
     padding: 2rem;
+    color: #000000;
 }
-.tab3-text p{
-    font-size: 1.5rem;
-    padding: 0 2rem;
-}
+
 .icon-tab3{
     width: 50%;
     height: 600px;
@@ -403,4 +422,7 @@ button.accordion.is-open::before{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-in-out;
+ }
+ .spatiu-gol2{
+     height: 30px;
  }

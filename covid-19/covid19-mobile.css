@@ -9,19 +9,19 @@
     }
     
     .nav-links{
-        
+        width: 60%;
         position: fixed;
         top: 3rem;
         flex-direction: column;
         background-color: #000000;
-        right: -500px;
+        right: -600px;
         height: 600px;
         transition: all 0.3s ease;
         justify-content: center;
         text-align: center;
     }
     .nav-links li{
-        padding: rem 0;
+        padding: 1rem 0;
         opacity: 0;
     }
     .imagine-icon img{

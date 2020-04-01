@@ -13,6 +13,9 @@ window.addEventListener('scroll',function(){
     parallax('.adn6', window.scrollY , 0.1);
     parallax('.adn7', window.scrollY , 0.4);
     parallax('.adn8', window.scrollY , 0.3);
+    parallax('.covid1', window.scrollY , 0.3);
+    parallax('.covid2', window.scrollY , 0.5);
+    parallax('.covid3', window.scrollY , 0.4);
 
 });
 // taburi
@@ -25,6 +28,11 @@ tabs.forEach(tab =>{
         tabContents.forEach(tabContent => {
             tabContent.classList.remove('active')
         });
+        tabs.forEach(tab => {
+            tab.classList.remove('active')
+        });
+        
+        tab.classList.add('active');
         target.classList.add('active');
     });
 });
