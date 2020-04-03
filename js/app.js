@@ -31,3 +31,14 @@ new hoverEffect ({
     displacementImage: ' ./images/diss.png'
 });
 //   efectul paralax
+//   top arrow 
+window.addEventListener("scroll", () => {
+	let topArrow = document.getElementById('top-arrow');
+	if(window.scrollY < 260) {
+		topArrow.style.opacity = '0';
+		topArrow.style.pointerEvents = "none";
+	} else {
+		topArrow.style.opacity = '1';
+		topArrow.style.pointerEvents = "all";
+	}
+});

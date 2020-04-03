@@ -13,10 +13,39 @@
     width: 100%;
     display: flex;
     height: 100px;
-    background-color: #001a00;
+    background-color: #123C69;
     z-index: 5;
      
  }
+ .top-arrow {
+	z-index: 6;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	height: 45px;
+	width: 45px;
+	background-color: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	transition: 0.45s;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.top-arrow:hover {
+	background-color: gray;
+	color: #111;
+}
+
+.top-arrow:hover span {
+	margin-bottom: 3px;
+}
 .tab1-text{
     display: flex;
     flex-direction: column;
@@ -67,8 +96,68 @@
      width: 100%;
      transition: width .3s;
  }
+#info-covid-head{
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #123C69;
+    text-align: center;
+    position: relative;
+}
+#info-covid-head h1{
+    font-size: 4rem;
+    color: white;
+    padding: 1rem;
+}
 
-
+.link-catre-container{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 18px;
+    margin: 2rem;
+    border: 2px solid white;
+}
+#sfaturi-head{
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #215f45;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+#sfaturi-head h1{
+    font-size: 3rem;
+    color: white;
+    padding:1rem;
+}
+.img-head-sfaturi{
+    display: flex;
+    justify-content: center;
+    background-color: #215f45;
+}
+#sfaturi{
+    width: 100%;
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #215f45;
+}
+#stafuri strong,li{
+    color: white;
+    font-size: 20px
+}
  @keyframes navSlideIn {
     from{
         opacity: 0;
@@ -92,7 +181,7 @@
  }
  .footer{
     width: 100%;
-    background-color: black;
+    background-color: #123C69;
     height: 200px;
     color: white;
     display: flex;
@@ -190,7 +279,7 @@
 }
 #container2{
     width: 100%;
-    background-color: #001a00;
+    background-color: #123C69;
 }
 .covid1{
     width: 200px;
@@ -271,10 +360,7 @@
     height: 500px;
     width: 50%;
     color: white;
-    background: #D31027;  
-     background: -webkit-linear-gradient(to right, #00b164 #D31027);  
-     background: linear-gradient(to right, #00b164, #D31027); 
-
+    background: #D31027;
  }
 .tab1-text h1{
     font-size: 4rem;
@@ -311,21 +397,17 @@
     height: 500px;
     width: 50%;
     color: white;
-    background: #e65c00;  
-    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  
-    background: linear-gradient(to right, #F9D423, #e65c00); 
-    
-
+    background: #F9D423;
  }
 .tab2-text h1{
     font-size: 3rem;
     padding: 2rem;
-    color: #000000;
+    color: white;
 }
 .tab2-text p{
     font-size: 1.5rem;
     padding: 0 2rem;
-    color: #000000;
+    color: white;
 }
 .icon-tab2{
     width: 50%;
@@ -367,13 +449,13 @@
  .tab3-text li{
      list-style: none;
      font-size: 1.1rem;
-     color: #000000;
+     color: white;
  }
 
 .tab3-text h1{
     font-size: 2.5rem;
     padding: 2rem;
-    color: #000000;
+    color: white;
 }
 
 .icon-tab3{
