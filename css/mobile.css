@@ -140,27 +140,5 @@
     }
     }
     
-    .punct{
-        background-color: #8860d0;
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        z-index: 2;
-        right: 2rem;
-        bottom: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        border: 2px solid white;
-        transition: 0.5s;
-    }
-    .punct  {
-        font-size: 1.7rem;
-        color: white;
-        text-decoration: none;
-    }
-    .punct:hover{
-        background: none;
-    }
+   
     

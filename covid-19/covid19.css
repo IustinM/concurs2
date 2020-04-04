@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
  }
- html {
+ html,body {
     scroll-behavior: smooth;
-    font-family: 'sans-serif';
+    font-family: 'roboto';
+    
  }
  nav{
     justify-content: space-between;
@@ -13,28 +14,28 @@
     width: 100%;
     display: flex;
     height: 100px;
-    background-color: #123C69;
+    background-color: rgb(0, 0, 0);
     z-index: 5;
      
  }
- .top-arrow {
-	z-index: 6;
+ #top-arrow {
+	z-index: 1000;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
 	height: 45px;
 	width: 45px;
-	background-color: #111;
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-size: 1.5rem;
 	border-radius: 50%;
 	transition: 0.45s;
-	opacity: 0;
-	pointer-events: none;
+    margin: 1rem;
+	
 }
 
 
@@ -82,6 +83,7 @@
  }
  .burger{
      display: none;
+     cursor: pointer;
  }
  .cool-link::after {
      content: '';
@@ -106,14 +108,14 @@
     align-items: center;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #123C69;
+    background-color: #000000;
     text-align: center;
     position: relative;
 }
 #info-covid-head h1{
-    font-size: 4rem;
+    font-size: 2rem;
     color: white;
-    padding: 1rem;
+    
 }
 
 .link-catre-container{
@@ -126,25 +128,22 @@
 }
 #sfaturi-head{
     width: 100%;
-    min-height: 90%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #215f45;
+    background-color: #444444;
     padding-top: 0rem;
     padding-bottom: 2rem;
 }
 #sfaturi-head h1{
     font-size: 3rem;
     color: white;
-    padding:1rem;
+    padding-top:1rem;
+    font-family: 'roboto';
 }
-.img-head-sfaturi{
-    display: flex;
-    justify-content: center;
-    background-color: #10975f;
-}
+
 #sfaturi{
     width: 100%;
     min-height: 90%;
@@ -152,11 +151,16 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #10975f;
+    background-color: #444444;
+    font-family: sans-serif;
+   text-align: left;
+   padding: 2rem 4rem;
 }
 #stafuri strong,li{
+    list-style: none;
     color: white;
-    font-size: 20px
+    font-size: 20px;
+    padding: 0.4rem 0;
 }
  @keyframes navSlideIn {
     from{
@@ -181,7 +185,7 @@
  }
  .footer{
     width: 100%;
-    background-color: #123C69;
+    background-color: rgb(0, 0, 0);
     height: 200px;
     color: white;
     display: flex;
@@ -217,6 +221,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     
 }
 .container1-images img{
@@ -277,10 +282,7 @@
     right: 10%;
     top: 50%;
 }
-#container2{
-    width: 100%;
-    background-color: #123C69;
-}
+
 .covid1{
     width: 200px;
     right: 10%;
@@ -310,15 +312,17 @@
     
 }
 .tab.active{
-    background-color: #2b2b2b98;
+    background-color: #3b3b3b98;
 }
 
 
-
+#container2{
+    background-color: #000000;
+}
      #container2 .data-list{
  display: flex;
  justify-content: space-around;
-  /* background-color: #4e4e4e3f;  */
+   background-color: #363636d7; 
  margin-top: 2rem;
  margin: 0 3rem;
 }
@@ -329,6 +333,7 @@
     color: white;
     padding: 1rem 1rem;
     cursor: pointer;
+    font-family: 'roboto';
     
 }
 
@@ -346,6 +351,7 @@
  #container2 #home{
 
     border: 20px solid #3d3d3d98;
+    background-color: #000000;
     margin:  0 3rem;
   
     
@@ -360,7 +366,11 @@
     height: 500px;
     width: 50%;
     color: white;
-    background: #D31027;
+    background: #bd2424;
+    background: -webkit-linear-gradient(to right, #ac0101, #e74141);  
+    background: linear-gradient(to right, #ac0101, #e74141); 
+    font-family: 'roboto';
+
  }
 .tab1-text h1{
     font-size: 4rem;
@@ -388,6 +398,8 @@
 
     border: 20px solid #3d3d3d98;
     margin:  0 3rem;
+    font-family: 'roboto';
+    background-color: #000000;
     
     
 } 
@@ -397,7 +409,10 @@
     height: 500px;
     width: 50%;
     color: white;
-    background: #F9D423;
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  
+    background: linear-gradient(to right, #F37335, #FDC830); 
+
  }
 .tab2-text h1{
     font-size: 3rem;
@@ -427,7 +442,8 @@
 
     border: 20px solid #3d3d3d98;
     margin:  0 3rem;
-    
+    background-color: #000000;
+    font-family: 'roboto';
     
 } 
 

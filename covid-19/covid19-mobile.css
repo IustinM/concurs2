@@ -13,7 +13,7 @@
         position: fixed;
         top: 3rem;
         flex-direction: column;
-        background-color: #123C69;
+        background-color: rgb(0, 0, 0);
         right: -600px;
         height: 600px;
         transition: all 0.3s ease;
@@ -165,6 +165,10 @@
 } 
 #container2 .data-list{
     margin: 0;
+}
+#sfaturi{
+ 
+   padding: 2rem 2rem;
 }
 }
 
