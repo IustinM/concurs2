@@ -143,7 +143,7 @@
 .img-head-sfaturi{
     display: flex;
     justify-content: center;
-    background-color: #215f45;
+    background-color: #10975f;
 }
 #sfaturi{
     width: 100%;
@@ -152,7 +152,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #215f45;
+    background-color: #10975f;
 }
 #stafuri strong,li{
     color: white;
